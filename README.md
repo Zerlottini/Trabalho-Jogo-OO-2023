@@ -85,7 +85,7 @@ setStatus(boolean status): Define o status do personagem.
 ## Colaboradores
 - [Henrique Zerlottini](https://github.com/Zerlottini)
 - [Pedro Henrique](https://github.com/PedroHen0510)
-- [Davi Samuel](link_para_github_colaborador_3)
+- [Davi Samuel](https://github.com/DaviSamuelFB)
 - ...
 
 ## Diagrama de Classes do Sistema
