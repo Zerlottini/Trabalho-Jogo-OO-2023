@@ -94,7 +94,7 @@ setStatus(boolean status): Define o status do personagem.
 - ...
 
 ## Diagrama de Classes do Sistema
-
+https://github.com/Zerlottini/Trabalho-Jogo-OO-2023/blob/master/DiagramaSistema.pdf
 
 ## Modelo Entidade-Relacionamento da Base de Dados
 Consulte [este link](link_para_modelo_entidade_relacionamento.png) para visualizar o modelo entidade-relacionamento da base de dados do sistema.
