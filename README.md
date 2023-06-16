@@ -20,32 +20,37 @@ Após selecionar os personagens, o jogo prosseguirá com perguntas de múltipla 
 
 Classe JogoPerguntas:
 
+Atributos: São variáveis da classe JogoPerguntas que armazenam dados utilizados em diferentes partes do jogo, como as listas de personagens e perguntas, além dos jogadores selecionados.
+
 ArrayList: É uma classe em Java que implementa uma lista de tamanho dinâmico, permitindo adicionar, remover e acessar elementos de maneira flexível.
 
 Scanner: É uma classe em Java que permite ler a entrada do usuário a partir do teclado.
 
-Classe JogoPerguntas: É uma classe principal que contém o método main() e é responsável por iniciar o jogo e exibir o menu inicial.
+Classes:
+JogoPerguntas: É uma classe principal que contém o método main() e é responsável por iniciar o jogo e exibir o menu inicial.
 
-Atributos: São variáveis da classe JogoPerguntas que armazenam dados utilizados em diferentes partes do jogo, como as listas de personagens e perguntas, além dos jogadores selecionados.
+Personagem: É uma classe que representa um personagem do jogo, com atributos como nome, pontos de vida (HP) e se está disponível ou não.
 
-Classe Personagem: É uma classe que representa um personagem do jogo, com atributos como nome, pontos de vida (HP) e se está disponível ou não.
+Perguntas: É uma classe que representa uma pergunta do jogo, com atributos como o enunciado da pergunta, uma lista de alternativas e o índice da resposta correta.
 
-Classe Perguntas: É uma classe que representa uma pergunta do jogo, com atributos como o enunciado da pergunta, uma lista de alternativas e o índice da resposta correta.
+Métodos:
+inicializarJogo(): É um método responsável por inicializar o jogo, cadastrando os personagens e perguntas no jogo.
 
-Método inicializarJogo(): É um método responsável por inicializar o jogo, cadastrando os personagens e perguntas no jogo.
+exibirMenuInicial(): É um método que exibe o menu inicial do jogo e solicita ao jogador que escolha uma opção. Dependendo da opção escolhida, ele executa diferentes ações, como exibir as informações dos desenvolvedores ou iniciar o jogo.
 
-Método exibirMenuInicial(): É um método que exibe o menu inicial do jogo e solicita ao jogador que escolha uma opção. Dependendo da opção escolhida, ele executa diferentes ações, como exibir as informações dos desenvolvedores ou iniciar o jogo.
+menuEscolhaPersonagem(): É um método que exibe o menu de escolha de personagem, permitindo que os jogadores selecionem seus personagens a partir de uma lista de personagens disponíveis.
 
-Método menuEscolhaPersonagem(): É um método que exibe o menu de escolha de personagem, permitindo que os jogadores selecionem seus personagens a partir de uma lista de personagens disponíveis.
-
-Método iniciarPartida(): É um método que inicia a partida do jogo. Ele exibe o status dos jogadores e apresenta uma pergunta a cada rodada. Os jogadores devem escolher uma alternativa, e o jogo verifica se a resposta está correta, atualizando os pontos de vida dos jogadores.
+iniciarPartida(): É um método que inicia a partida do jogo. Ele exibe o status dos jogadores e apresenta uma pergunta a cada rodada. Os jogadores devem escolher uma alternativa, e o jogo verifica se a resposta está correta, atualizando os pontos de vida dos jogadores.
 
 Classe Alternativas:
 
 Atributos:
+
 enunciado_A: Uma String que representa o enunciado da alternativa.
 status: Um booleano que indica se a alternativa está correta ou não.
+
 Métodos:
+
 Construtor: Inicializa os atributos da classe.
 getEnunciado(): Retorna o enunciado da alternativa.
 getStatusA(): Retorna o status da alternativa (se está correta ou não).
@@ -89,7 +94,8 @@ setStatus(boolean status): Define o status do personagem.
 - ...
 
 ## Diagrama de Classes do Sistema
-Consulte [este link](link_para_diagrama_de_classes.png) para visualizar o diagrama de classes do sistema.
+Consulte [este link](![image](https://github.com/Zerlottini/Trabalho-Jogo-OO-2023/assets/119819492/9d6b43da-6e09-44c2-b2b7-dbe20f3d73a1)
+) para visualizar o diagrama de classes do sistema.
 
 ## Modelo Entidade-Relacionamento da Base de Dados
 Consulte [este link](link_para_modelo_entidade_relacionamento.png) para visualizar o modelo entidade-relacionamento da base de dados do sistema.
